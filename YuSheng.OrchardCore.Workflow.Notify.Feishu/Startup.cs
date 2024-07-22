@@ -6,7 +6,7 @@ using YuSheng.OrchardCore.Workflow.Notify.Feishu.Drivers;
 
 namespace YuSheng.OrchardCore.Workflow.Notify.Feishu
 {
-    [Feature("OrchardCore.Workflows")]
+    [Feature("YuSheng.OrchardCore.Workflow.Notify.Feishu")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)
